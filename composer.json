@@ -1,0 +1,37 @@
+{
+    "name": "schorpy/triggerdev-laravel",
+    "description": "Laravel package for trigger.dev",
+    "keywords": [
+        "laravel",
+        "triggerdev",
+        "php",
+        "saas"
+    ],
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "php": "~8.2.0|~8.3.0|~8.4.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "firebase/php-jwt": "^6.11",
+        "laravel/framework": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Schorpy\\TriggerDev\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Schorpy\\TriggerDev\\TriggerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "schorpy",
+            "email": "87610109+schorpy@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
