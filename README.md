@@ -1,6 +1,6 @@
 # Laravel TriggerDev Package
 
-A Laravel package to integrate **Trigger.Dev** APIs into your Laravel application, inspired by Laravel Cashier.  
+A Laravel package to integrate **Trigger.Dev** APIs into your Laravel application.  
 It allows you to manage **Tasks, Runs, Schedules, and Environment Variables (EnvVars)** easily from your Laravel app.
 
 ---
